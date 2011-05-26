@@ -1,0 +1,107 @@
+default: &DEFAULT
+  yahoo:
+    aid: CfGANlKxg67Kz0fLq2SFMSu0puT0cK293hl1gEeWdOlauqNbZLj5jttlaTewTB8b8tfaU2sgy28-
+
+  pr:
+    large: # 3 photos
+      height: 30%
+      width:  30%
+      list:
+        - 287 #okonomi p2
+        - 286 #okonomi p2
+        - 365 #itsukushima p2
+        - 337 #itsukushima p1
+        - 346 #niseko p1
+        - 294 #komainu p1
+    mid: # 6 photos
+      height: 20%
+      width:  20%
+      list:
+        - 282 #oyster p2
+        - 300 #shinkansen p2
+        - 345 #tram p2
+        - 350 #port p2
+        - 330 #shrine p2
+        - 343 #ekiben p2
+        - 354 #kamakiri p1
+        - 364 #hekiga p1
+        - 333 #sunrise p1
+        - 348 #boat p1
+        - 335 #sky p1
+        - 301 #flower p1
+    small: # 7 photos
+      height: 15%
+      width:  15%
+      list:
+        - 326 #p2
+        - 357 #p2
+        - 340 #p2
+        - 297 #p2
+        - 276 #p2
+        - 361 #p2
+        - 323 #p2
+        - 308 #p1
+        - 305 #p1
+        - 324 #p1
+        - 290 #p1
+        - 317 #p1
+        - 310 #p1
+        - 344 #p1
+    demo1:
+      params:
+        - 337 #itsukushima p1
+        - 346 #niseko p1
+        - 294 #komainu p1
+        - 354 #kamakiri p1
+        - 364 #hekiga p1
+        - 333 #sunrise p1
+        - 348 #boat p1
+        - 335 #sky p1
+        - 301 #flower p1
+        - 308 #p1
+        - 305 #p1
+        - 324 #p1
+        - 290 #p1
+        - 317 #p1
+        - 310 #p1
+        - 344 #p1
+    demo2:
+      params:
+        - 287 #okonomi p2
+        - 286 #okonomi p2
+        - 365 #itsukushima p2
+        - 282 #oyster p2
+        - 300 #shinkansen p2
+        - 345 #tram p2
+        - 350 #port p2
+        - 330 #shrine p2
+        - 343 #ekiben p2
+        - 326 #p2
+        - 357 #p2
+        - 340 #p2
+        - 297 #p2
+        - 276 #p2
+        - 361 #p2
+        - 323 #p2
+    demo3:
+      params:
+        id:      287
+        action: show
+        location: Hiroshima 
+    demo4:
+      params:
+        id:      286
+        action: show
+        location: Hiroshima
+  local:
+    - 7korobi
+
+development:
+  <<: *DEFAULT
+
+test:
+  <<: *DEFAULT
+
+production:
+  <<: *DEFAULT
+

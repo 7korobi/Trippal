@@ -29,6 +29,10 @@ gem "paperclip"
 gem "mongoid"
 gem "bson_ext" 
 gem "json"
+gem "sqlite3"
+
+# management
+gem "rubygems-update"
 
 # Deploy with Capistrano
 # gem 'capistrano'
