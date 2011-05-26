@@ -18,7 +18,6 @@ class Article
     Tag.find_or_create_all(str).each do |tag|
       self.tags << tag unless self.tags.member? tag
     end
-    self.tags = self.tags.uniq
   end
 end
 
