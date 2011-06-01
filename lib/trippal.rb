@@ -1,3 +1,4 @@
+require 'current'
 require 'timestamp'
 require 'with_simple_form'
 
@@ -27,3 +28,4 @@ module Trippal
     end
   end
 end
+
