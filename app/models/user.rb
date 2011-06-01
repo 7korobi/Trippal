@@ -9,4 +9,11 @@ class User
   timestamp :at
   references_many :auth
   references_many :articles
+
+  def admin?
+    is_admin
+  end
+  def login?
+    account_id.present? && name.present?
+  end
 end

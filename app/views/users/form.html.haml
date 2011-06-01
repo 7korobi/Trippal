@@ -1,0 +1,17 @@
+= simple_form_for(user) do |f|
+  - if user.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(user.errors.count, "error")
+        prohibited this login from being saved:
+
+      %ul
+        - user.errors.full_messages.each do |msg|
+          %li= msg
+
+  .inputs
+    = f.input :user_id
+    = f.input :name
+    = f.input :email
+  .actions
+    = f.button :submit
