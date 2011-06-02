@@ -6,7 +6,7 @@ class Tag
   timestamp :at
   references_many :articles
   
-  YAHOO_AID   = TRIPPAL['yahoo']['aid']
+  YAHOO_AID   = TRIPPAL['ride']['yahoo']['aid']
   UNIQ_FILTER = '9|10'
   
   def self.parse(str)

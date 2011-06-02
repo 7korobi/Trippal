@@ -1,7 +1,8 @@
 default: &DEFAULT
-  provider:
+  ride:
     yahoo:
-      - CfGANlKxg67Kz0fLq2SFMSu0puT0cK293hl1gEeWdOlauqNbZLj5jttlaTewTB8b8tfaU2sgy28-
+      aid: CfGANlKxg67Kz0fLq2SFMSu0puT0cK293hl1gEeWdOlauqNbZLj5jttlaTewTB8b8tfaU2sgy28-
+  provider:
     twitter:
       - ph5ONHhBl0yhXzBv35waCQ
       - APv8SlWIgzXRlXAtyMkckw3VcNb2ZntQpX1p0Qe2b9U
