@@ -1,7 +1,7 @@
 
 module CurrentAuthenticated
   protected
-  Current = Struct.new(:auth,:user)
+  Current = Struct.new(:auth,:user,:request)
   def self.included(controller)
     controller.helper_method :admin?, :self?, :login?, :logout?
     controller.helper_method :current
@@ -68,7 +68,7 @@ module CurrentAuthenticated
   end
 
   def current(auth = nil, user = nil, request = nil)
-    session[:current] ||= Current.new(auth, user)
+    session[:current] ||= Current.new(auth, user, request)
   end
 end
 

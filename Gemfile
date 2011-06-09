@@ -41,9 +41,11 @@ group :development do
 # To use debugger
   gem 'ruby-debug19'
   gem "factory_girl_rails", :require => nil 
+  gem 'rspec-rails', '>= 2.6.1'
 end
 
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
+  gem 'rspec-rails', '>= 2.6.1'
 end
