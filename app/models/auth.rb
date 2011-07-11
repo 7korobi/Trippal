@@ -6,6 +6,7 @@ class Auth
   field :name
   field :screen_name
   referenced_in :user, inverse_of: :auths
+  key :user_id, :provider
 
   def initialize(attributes = {})
     super

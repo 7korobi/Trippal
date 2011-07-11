@@ -9,6 +9,7 @@ class User
   timestamp :at
   references_many :auth
   references_many :articles
+  key :user_id
 
   def admin?
     is_admin

@@ -5,6 +5,7 @@ class Tag
   field :name
   timestamp :at
   references_many :articles
+  key :name
   
   YAHOO_AID   = TRIPPAL['ride']['yahoo']['aid']
   UNIQ_FILTER = '9|10'
