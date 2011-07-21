@@ -1,4 +1,11 @@
-= simple_form_for welcome do |f|
-  = f.input  :mailto
-  = f.button :submit
+#bub
+  =image_tag 'welcome/trippal_bubble.png', id:'bubble'
+  %h1 Coming Soon...
+  =image_tag 'welcome/for2.png', class:'for'
+  
+  #email
+    =image_tag 'welcome/want_info.png'
+    =simple_form_for welcome do |f|
+      =f.input  :mailto, :label => false
+      =image_submit_tag 'button_ok1.png', class:'buttonok'
 

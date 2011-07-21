@@ -5,3 +5,72 @@
  *= require_self
  *= require_tree . 
 */
+
+body {
+    margin: 0 auto;
+    font-family: helvetica,arial,sans-serif;
+}
+div.content {
+    margin: auto;
+    text-align: center;
+    width: 1024px;
+}
+div#header {
+    margin-top: 0;
+    background: #ffe8cb;
+    overflow: hidden; 10px dotted #967a56;
+    height: 50px;
+    border-bottom: 10px dotted #967a56;
+}
+h1 {
+    padding-top: 50px;
+    color: #e48f22;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: -2px;
+}
+img#bubble {
+    width: 500px;
+    height: 530px;
+    float: left;
+}
+
+
+div#email {
+    margin: auto;
+    margin-bottom: 80px;
+    margin-top: 150px;
+    text-align: center;
+    width:350px;
+}
+input#mail{
+    font: 18px Helvetica,sans-serif;
+    border: 3px solid #967a56;
+    width: 200px;
+    height: 50px;
+}
+img.buttonok {
+    float: right;
+    position: relative;
+}
+div#footer {
+    border-top: 10px dotted #967a56;
+    text-align: center;
+    background: #ffe8cb;
+    overflow: hidden;
+    width: 1024px;
+    height: 150px;
+    font-size: 10px;
+    color: #57360c;
+}
+div#follow {
+    width: 140px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 8px;
+}
+img.twit {
+    float: left;
+    position: relative;
+}
+
