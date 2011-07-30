@@ -31,6 +31,7 @@ gem "mongoid"
 gem "bson_ext" 
 gem "json"
 gem "sqlite3"
+gem "sqlite3-ruby"
 
 # management
 gem "rubygems-update"
