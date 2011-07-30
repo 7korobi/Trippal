@@ -8,11 +8,12 @@ gem 'rails', '3.1.0.rc5'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 # Asset template engines
-gem 'execjs'
 gem 'sass'
 gem 'coffee-script'
 gem 'uglifier'
 gem 'jquery-rails'
+gem 'execjs'
+gem 'therubyracer'
 
 gem "decent_exposure"
 gem "simple_form"
