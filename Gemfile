@@ -1,8 +1,9 @@
 source 'http://rubygems.org'
 
 # ruby on rails
+# Use unicorn as the web server
 gem 'unicorn'
-gem 'rails', '3.1.0.rc4'
+gem 'rails', '3.1.0.rc5'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -11,14 +12,13 @@ gem 'sass'
 gem 'coffee-script'
 gem 'uglifier'
 gem 'jquery-rails'
+gem 'execjs'
+gem 'therubyracer'
 
 gem "decent_exposure"
 gem "simple_form"
 gem "haml"
 gem "haml-rails"
-
-# Use unicorn as the web server
-# gem 'unicorn'
 
 # web_service
 gem "omniauth"
@@ -31,6 +31,7 @@ gem "mongoid"
 gem "bson_ext" 
 gem "json"
 gem "sqlite3"
+gem "sqlite3-ruby"
 
 # management
 gem "rubygems-update"
